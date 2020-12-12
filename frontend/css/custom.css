@@ -1,0 +1,15 @@
+.ibox .ibox-content .btn-custom {
+    margin-bottom: 0px;
+    padding: 3px 5px;
+    font-size: 12px;
+}
+
+/* Remove up/down button input number */
+input[type='number'] {
+   -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+}
